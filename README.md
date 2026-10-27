@@ -16,7 +16,7 @@ I'm not an engineer. Everything below was built by someone who knows the busines
 A plain-Markdown store of memory, skills and agent definitions that all my agents read from, kept in sync across machines and designed around the security risks of agents that read untrusted content all day. The hub of everything else here.
 
 #### 🤖 [hermes-agent](https://github.com/soeren90/hermes-agent): an always-on agent I built and ran on my own server
-Ran product management around the clock: turned a chat message, a voice note or a screenshot into a well-formed ticket, kept the backlog honest, and handled routines like a morning briefing, mail triage and deadline checks. Sandboxed, watched and restarted automatically. Narrow on purpose: it drafts, I decide.
+Ran product management around the clock: turned a chat message, a voice note or a screenshot into a well-formed ticket, kept the backlog honest, and handled routines like a morning briefing, mail triage and deadline checks. Sandboxed, watched and restarted automatically. Narrow on purpose: it drafts, I decide. In autumn 2026 I moved this work to Claude Code running locally, because an always-online server holding credentials is a bigger attack surface than an agent that runs under my control.
 
 #### 🎩 [larry](https://github.com/soeren90/larry): how I design multi-agent systems
 A conductor agent delegating to narrow specialists, backed by a Markdown memory vault, scheduled automations and a human-gated learning loop.
