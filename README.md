@@ -1,6 +1,6 @@
 ### Hi, I'm Sören 👋
 
-I bring AI to where the work happens. By day I'm a Key Account Manager in the commercial team of a B2B SaaS company and the person colleagues come to for AI: I take processes apart, build agents for the parts worth automating, and teach the team to build their own. On the side I co-founded **PEPE SPLITS**, a royalty-accounting SaaS for the music industry, where I'm managing director and product lead. Tickets, test plans, content and most of the day-to-day run through agents I built myself.
+I bring AI to where the work happens. By day I'm a Key Account Manager in the commercial team of a B2B SaaS company and the person colleagues come to for AI: I take processes apart, build agents for the parts worth automating, and teach the team to build their own. On the side I co-founded **PEPE SPLITS**, a royalty-accounting SaaS for the music industry, where I'm managing director and product lead. Tickets, test plans, content and most of the day-to-day run through agents I built myself: an agent team drafts a week of social posts, and nothing goes out until I approve it.
 
 I'm not an engineer. Everything below was built by someone who knows the business, in close sparring with AI and with engineering where it mattered.
 
@@ -13,7 +13,7 @@ I'm not an engineer. Everything below was built by someone who knows the busines
 ---
 
 #### 🧠 [shared-brain](https://github.com/soeren90/shared-brain): one brain, many bodies
-A plain-Markdown store of memory, skills and agent definitions that all my agents read from, kept in sync across machines and designed around the security risks of agents that read untrusted content all day. The hub of everything else here.
+A plain-Markdown store of memory, skills, agent definitions and working state that all my agents read from, whichever vendor runs them: Claude Code on my laptop, a scheduled Claude routine in the cloud, Grok as the assistant on my phone and Codex as a second workbench. Swapping a provider means pointing a new body at the same files. Designed around the security risks of agents that read untrusted content all day. The hub of everything else here.
 
 #### 🤖 [hermes-agent](https://github.com/soeren90/hermes-agent): an always-on agent I built and ran on my own server
 Ran product management around the clock: turned a chat message, a voice note or a screenshot into a well-formed ticket, kept the backlog honest, and handled routines like a morning briefing, mail triage and deadline checks. Sandboxed, watched and restarted automatically. Narrow on purpose: it drafts, I decide. In autumn 2026 I moved this work to Claude Code running locally, because an always-online server holding credentials is a bigger attack surface than an agent that runs under my control.
